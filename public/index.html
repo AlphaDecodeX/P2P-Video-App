@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css" />
+    <title>P2P Video Call</title>
+</head>
+<body>
+<div>
+    <div id="userId"></div>
+    <div id="remote-video">
+        <h1>On Call</h1>
+        <video id="remoteVideo" playsinline autoplay></video>
+    </div>
+    <div id="local-video">
+        <video id="currVideo" playsinline autoplay muted></video>
+    </div>
+
+    <h3>
+        Users:
+    </h3>
+    <div id="listOfUsers">
+        No users connected
+    </div>
+
+    <div>
+        <div id="call">Call</button>
+    </div>
+    <div>
+        Stats:
+        <table class="stats-box">
+        </tabe>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/socket.io-client@2/dist/socket.io.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

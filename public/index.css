@@ -1,0 +1,68 @@
+#call {
+    display: inline-flex;
+    background: linear-gradient(214.84deg, rgb(20, 129, 38) 20.52%, rgb(11, 99, 50) 89.43%);
+    transition: background 1s;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 5px;
+    color: white;
+  }
+  
+  #call:hover {
+    background: linear-gradient(90deg, rgb(116, 255, 98),  rgb(60, 141, 46));
+  }
+  
+  #local-video {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+  }
+  
+  #currVideo {
+    width: 200px;
+    border-radius: 7px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+  }
+  
+  #remote-video {
+    display: grid;
+    place-items: center;
+  }
+  
+  #remoteVideo {
+    max-width: 80vw;
+    height: 600px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  }
+  
+  #userId {
+    display: none;
+  }
+  
+  .item {
+    display: inline-flex;
+    cursor: pointer;
+    background: transparent;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    transition: background 1s;
+    border: 1px solid rgb(42, 255, 95);
+  }
+  
+  .item:hover {
+    background: rgb(42, 255, 177);
+  }
+  
+  .clicked {
+    background: linear-gradient(90deg, rgb(42, 255, 145) 0%, rgb(98, 255, 153) 100%);
+  }
+  
+  .stats-box td{
+      border: 1px solid black;
+      margin: 0px;
+      padding: 2px;
+  }
